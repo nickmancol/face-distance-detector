@@ -66,7 +66,7 @@ def faces_dist(classifier, ref_width, ref_distance, focal_length):
 
 # legal paper size in cm
 if len(sys.argv) < 4:
-    print("This requires 3 args: reference_img_path ref_distance_cm ref_marker_with_cm")
+    print("This requires 3 args: reference_img_path ref_distance_cm ref_marker_witdth_cm")
     exit(1)
 
 
